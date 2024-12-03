@@ -132,7 +132,7 @@ static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_w,                     spawn,          SHCMD("set-wallpaper") },
 	{ MODKEY,                       XK_z,                     spawn,          SHCMD("rofi -show run") },
-	{ MODKEY|ShiftMask,             XK_x,             	  spawn,          SHCMD("scrot")},
+	{ MODKEY|ShiftMask,             XK_s,           	  spawn,          SHCMD("scrot")},
 	{ MODKEY,                       XK_Return,                spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_n,          	          spawn,          SHCMD("st -c neovim -e nvim")},
 	{ShiftMask,                     XK_F12,                   spawn,          {.v = volumecmd[0]} },
